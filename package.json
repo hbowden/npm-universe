@@ -1,0 +1,16 @@
+{
+  "name": "npm-universe",
+  "version": "0.0.2",
+  "description": "Downloads all public npm packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node index.js"
+  },
+  "author": "Harrison Bowden",
+  "license": "ISC",
+  "dependencies": {
+    "all-the-package-names": "^1.3545.0",
+    "cross-spawn": "^6.0.5"
+  }
+}
